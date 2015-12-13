@@ -1,0 +1,694 @@
+/*=================================================================================================================
+    YOUR STYLE here
+  ================================================================================================================= */
+  /* ie hack
+ don't remove that style*/
+.m-page {
+    display: block;
+}
+/* use to align content */
+.container-fluid {
+    min-width: 320px;
+    max-width: 1920px;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.container-fluid::before,
+.container-fluid::after,
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+}
+.container-fluid::after,
+.clearfix::after{
+    clear: both;
+}
+/*=================================================================================================================
+    YOUR STYLE here
+  ================================================================================================================= */
+
+body{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color: #506a85;
+    font-family: SourceSansPro,sans-serif;
+}
+h2,h3{
+    font-family: 'Lato', sans-serif;
+}
+h3{
+    font-weight: 700;
+}
+ul{
+    list-style-type: none;
+    padding-left:0;
+    margin:0;
+}
+a{
+    text-decoration: none !important;
+    color: #506a85;
+}
+a:hover{
+    transition: color 0.4s linear; 
+    cursor:pointer;
+}
+.centered{
+    text-align: center;
+}
+.contact-us{
+    background-color:#f5f7fa;
+    box-shadow: 0 1px 0 #e6e9ed;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.our-contacts a{
+    padding:12px 28px 10px 0;
+    display:block;
+    float:left;
+    font-size: 0.75em;
+}
+.our-contacts a:first-child:before{
+    content: '';
+    display: inline-block;
+    background: url(../img/icon-mail-1.svg) no-repeat;
+    width: 20px;
+    height: 12px;
+    vertical-align: middle;
+ }
+.our-contacts a:nth-child(2):before{
+    content: '';
+    display: inline-block;
+    background: url(../img/icon-mobile.svg) no-repeat;
+    width: 20px;
+    height: 12px;
+}
+.our-contacts a:hover, figcaption h3 a:hover, .more-about a:hover, .address a:hover, footer nav a:hover, h3 a:hover {
+    color: #00bc9c;
+}
+.social-elements li{
+    float:right;
+    padding:10px;
+}
+.social-elements li:first-child:hover{
+    background-color: #4668b3;
+}
+.social-elements li:nth-child(2):hover{
+    background-color: #de5745;
+}
+.social-elements li:nth-child(3):hover{
+    background-color: #2fbbed;
+}
+.social-elements li:nth-child(4):hover{
+    background-color: #d94348;
+}
+.social-elements li:nth-child(5):hover{
+    background-color: #3079ff;
+}
+.social-elements li:nth-child(6):hover{
+    background-color: #eb6397;
+}
+.wrapper {
+    overflow: hidden;
+    min-width: 320px;
+    width:100%;
+}
+.h-page h1{
+    width: 165px;
+    float:left;
+}
+.h-page nav{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.h-page .search {
+    float: right;
+    margin: 30px 0 20px;
+}
+/*.navbar-nav>li>ul>li{
+    background-color: #f5f7fa;
+    padding: 15px 15px 15px 30px;
+}*/
+.h-page .nav-section nav.navbar{
+    background-color:  white;
+    border:0;
+    color: #506a85;
+    font-size: 0.9375em;
+    font-weight: 700;
+}
+.get-started{
+    background: url(../img/background.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.get-started article h2{
+    color: white;
+    font-weight: 900;
+}
+.get-started article h2+p {
+    color: #a3b1bf;
+    font-family: SourceSansPro, sans-serif;
+}
+.button{
+    display: block;
+    background-color: #00bc9c;
+    border-radius: 3px;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    color: white;
+    font-weight: 700;
+}
+.get-started a.button{
+    font-size: 1.125em;
+    padding: 22px 20px 22px ;
+    width: 295px;
+    text-align: center;
+}
+.get-started article{
+    position: relative;
+}
+.get-started .glyphicon{
+    font-size:30px;
+    color: white;
+}
+.arr-left, .arr-right{
+    width:16px;
+    height:27px;
+    position:absolute;
+    top: 50%;
+    margin-top: -14px;
+}
+.title-block {
+    margin-top: 110px;
+    text-align: center;
+}
+.title-block h2{
+    color: #506a85;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.title-block h2+p{
+    color: #73879c;
+    font-size: 1.375em;
+}
+.get-started .slider-button li a:hover{
+    background-color: #00bc9c;
+}
+.get-started .slider-button:hover {
+    background-color: white;
+}
+.work-slider .slider-button li a, .get-started .slider-button  li a{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #506a85;
+    border-radius: 50%;
+    float:left;
+    margin-right: 10px;
+}
+.get-started  .slider-button  li:last-of-type a{
+    margin-right:0;
+}
+.get-started .slider-button {
+    width: 145px;
+    padding:7px 15px;
+    height:30px;
+    margin: 0 auto;
+    position:relative;
+}
+.advantages .img-wrapper{
+    float: left;
+    width: 60px;
+    position: relative;
+}
+.advantages .about{
+    float: left;
+    width: calc(100% - 60px);
+    padding: 0 15px 0 20px;
+}
+.advantages .about h3{
+    margin-top: 0;
+}
+.advantages li{
+    margin-top: 78px;
+}
+.latest-work{
+    background-color: #f2f5f7;
+}
+.work-presentation figure .img-wrapper img, .work-slider li img{
+    width:100%;
+}
+.latest-work figure{
+    margin-top: 78px;
+}
+.latest-work figcaption{
+    background-color: white;
+    padding-top: 1px;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 1px #e6e9ed;
+}
+.latest-work figcaption h3{
+    padding-top: 44px;
+}
+.latest-work figcaption>span:last-of-type{
+    display: inline-block;
+    padding-bottom: 32px;
+}
+.work .button{
+    font-size: 0.9375em;
+    padding: 20px;
+    width: 150px;
+}
+.work-slider ul:first-of-type li img{
+    min-width: 100%;
+}.work-presentation figure a img{
+    display: block;
+}
+.work-slider ul:first-of-type li{
+     position: relative;
+}
+/*при указывании padding-top 50% ,блок расширяется. мучался не получилось, укажите как исправить, если можно */
+.work-slider  .overlay{
+    background-color:  #00bc9c;
+    position: absolute;
+    top:0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    box-sizing: content-box;
+}
+.overlay:hover{
+    opacity:1;
+}
+.overlay span{
+
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.overlay{
+    color: white;
+    font-size: 0.875em;
+}
+.work-slider ul:first-child li{
+    margin-top: 80px;
+}
+.work-slider .slider-button{
+    margin: 45px auto 137px;
+    clear:both;
+    width: 155px;
+    height: 30px;
+    position: relative;
+}
+.work-slider .slider-button li:first-of-type{
+    padding-left: 40px;
+}
+.work-slider .slider-button li:last-of-type{
+    padding-right: 40px;
+}
+.work-slider .slider-button {
+    padding-top:7px;
+}
+.sl-arr-left, .sl-arr-right{
+    position: absolute;
+    top:0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #506a85;
+    opacity: 0.25;
+    border-radius: 3px;
+    text-align: center;
+    display:none;
+
+}
+.slider-button:hover .sl-arr-left, .slider-button:hover .sl-arr-right{
+    display: block;
+}
+.get-started .glyphicon:hover,.sl-arr-left:hover .glyphicon, .sl-arr-right:hover .glyphicon{
+    opacity: 1;
+    color: #00bc9c;
+}
+.sl-arr-left:hover, .sl-arr-right:hover{
+    opacity: 1;
+}
+.sl-arr-left span, .sl-arr-right span{
+    color:white;
+    vertical-align: middle;
+}
+.sl-arr-left{
+    left: 0;
+}
+.sl-arr-right{
+    right: 0;
+}
+.slider-button li a:hover{
+    background-color: #00bc9c;
+}
+.slider-button li:last-child{
+    margin-right: 0;
+}
+.our-contacts-short{
+    background-color: #2f4052;
+    color:white;
+}
+.our-works-mini li{
+    padding: 2px;
+    position: relative;
+}
+.our-works-mini li:nth-child(2)~li{
+    padding-bottom: 0;
+}
+.our-works-mini li:nth-child(even){
+    padding-right: 0;
+}
+.our-works-mini ul li:hover:before, .work-presentation figure .img-wrapper  a:hover:before{
+    content: '';
+    background: url(../img/icon-plus.png) no-repeat center #00bc9c;
+    display: block;
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+}
+.our-works-mini li img{
+    width: 100%;
+}
+.our-contacts-short section{
+    margin-bottom: 75px;
+}
+
+.our-contacts-short article{
+    margin: 75px 0 0;
+
+}
+.our-contacts-short p{
+    margin: 26px 0;
+}
+.address li:first-child:before{
+    content: '';
+    display: inline-block;
+    background: url(../img/icon-location.svg) no-repeat;
+    width: 20px;
+    height: 12px;
+}
+.address li:nth-child(2):before{
+    content: '';
+    display: inline-block;
+    background: url(../img/icon-mobile.svg) no-repeat;
+    width: 20px;
+    height: 13px;
+}
+.address li:nth-child(3):before{
+    content: '';
+    display: inline-block;
+    background: url(../img/icon-mail-1.svg) no-repeat;
+    width: 20px;
+    height: 9px;
+}
+.our-contacts-short article h3{
+    margin-bottom: 26px;
+    text-transform: uppercase;
+}
+.our-contacts-short article p{
+    color: #a3b1bf;
+}
+div.form{
+    background-color: rgba(0,0,0,0.15);
+    border-radius: 3px;
+    border: 0;
+    width:100%;
+    padding: 9px 100px 9px 12px ;
+    position: relative;
+}
+button.button{
+    border: 0;
+    padding: 6px 5px;
+    position: absolute;
+    right: 5px;
+    top:5px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-weight: 700;
+}
+.form input[type=email]{
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+}
+.form input::-webkit-input-placeholder {
+    color: #828e99;
+}
+.form input:-moz-placeholder {
+    color: #828e99;
+}
+.more-about a{
+    padding-right: 5px;
+}
+.more-about:after{
+    content: '';
+    display: inline-block;
+    background: url(../img/icon-right.svg) no-repeat;
+    width: 10px;
+    height: 8px;
+}
+.copyright{
+    background-color: #283645;
+    color: #707e8c;
+    font-size: 0.875em;
+}
+.author{
+    padding: 31px 0;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .h-page .navbar{
+        float:right;
+    }
+    .navbar-collapse{
+        border:0;
+    }
+    .h-page .nav-section .navbar-nav>li>a:hover{
+        background-color: #f5f7fa;
+        color: #00bc9c;
+        border-radius:2px;
+    }
+    .h-page .nav-section .navbar-nav li:first-child>a{
+        border-top:0;
+    }
+    .h-page .nav-section .navbar-nav li>a{
+        border-top: 1px solid #e6e9ed;
+        font-size: 0.9375em;
+        color:#73879c;
+        padding:14px;
+    }
+    .h-page .nav-section .navbar-nav .dropdown-menu>li>a:hover{
+        color:white;
+        background-color: #00bc9c;
+    }
+    .navbar-nav ul.dropdown-menu{
+        padding:0;
+        border: 1px solid #e6e9ed;
+        border-radius:2px;
+    }
+    .h-page .nav-section .navbar-nav li a:active{
+        background-color: #f5f7fa;
+    }
+    .get-started article h2+p{
+        padding:  0 40px;
+    }
+    footer nav li a {
+        display: block;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .author{
+        text-align: center;
+    }
+    footer nav li a:hover{
+        border: 1px solid cyan;
+        border-radius: 3px;
+        padding: 9px 0;
+
+    }
+    .our-contacts a{
+        width: 50%;
+    }
+    .social-elements li{
+        width: calc(100%/6);
+        text-align: center;
+    }
+}
+@media screen and (max-width: 479px){
+    .arr-left{
+        left:5px;
+    }
+    .arr-right{
+        right:5px;
+    }
+    .h-page h1{
+        float:none;
+        margin:20px auto 10px;
+    }
+    .h-page .navbar{
+        float:none;
+    }
+}
+@media screen and (max-width: 1199px){
+    div.form{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .arr-left{
+        left:15px;
+    }
+    .arr-right{
+        right:15px;
+    }
+    .advantages li{
+        padding: 0 120px;
+    }
+       .work-slider ul:first-child li{
+        width:50%;
+        float:left;
+    }
+    .work-slider ul:first-child li:nth-child(2n+1) {
+        clear: both;
+    }
+    .our-contacts-short .container-fluid{
+        max-width: 500px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .h-page .nav-section nav.navbar{
+        font-size: 0.75em;;
+    }
+}
+@media screen and (min-width: 768px){
+    .h-page .navbar{
+        float:left;
+    }
+    .h-page .nav-section .navbar-nav>li>a:hover, .nav-section .navbar-nav>.dropdown.open>a{
+        background-color: #f5f7fa;
+        border: 1px solid #e6e9ed;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        padding:14px;
+        color: #00bc9c;
+        border-radius:2px;
+    }
+    .h-page .nav-section .navbar-nav .dropdown-menu>li>a{
+        background-color: #f5f7fa;
+        border-top: 1px solid #e6e9ed;
+        padding-top:14px;
+        padding-bottom:15px;
+        font-size: 0.9375em;
+        font-weight: 700;
+        color:#73879c;
+    }
+    .h-page .nav-section .navbar-nav .dropdown-menu>li>a:hover{
+        color:white;
+        background-color: #00bc9c;
+    }
+    .navbar-nav ul.dropdown-menu{
+        padding:0;
+        border: 1px solid #e6e9ed;
+        border-radius:2px;
+    }
+    .h-page .nav-section .navbar-nav li a:active{
+        background-color: #f5f7fa;
+    }
+    .h-page h1,.h-page nav {
+        margin: 37px 0;
+    }
+    .h-page .search {
+        margin: 50px 0 20px;
+    }
+    .get-started article h2+p{
+        padding:  0 50px;
+    }
+    .author{
+        float: left;
+    }
+    footer nav{
+        float: right;
+    }
+    footer nav li {
+        display: inline-block;
+        padding: 31px 15px;
+    }
+}
+@media screen and (max-width: 991px){
+    .arr-left{
+        left:15px;
+    }
+    .arr-right{
+        right:15px;
+    }
+    .get-started article{
+        margin-top: 100px;
+    }
+    .get-started a.button{
+        margin: 63px auto 100px;
+    }
+    .title-block h2{
+        font-size: 1.875em;
+    }
+    .work .button{
+        margin: 41px auto 60px;
+    }
+    .advantages{
+        margin-bottom: 60px;
+    }
+    .slider li{
+        margin: 80px auto 0;
+    }
+}
+@media screen and (min-width: 992px){
+    .get-started article{
+        margin-top: 300px;
+    }
+    .get-started article h2{
+        font-size: 4.875em;
+    }
+    .get-started article h2+p{
+        font-size: 1.5em;
+        padding:  0 113px;
+    }
+    .arr-left{
+        left:30px;
+    }
+    .arr-right{
+        right:30px;
+    }
+    .get-started a.button{
+        margin: 63px auto 302px;
+    }
+    .title-block h2{
+        font-size: 2.75em;
+    }
+    .title-block p{
+        padding: 0 180px;
+    }
+    .advantages{
+        margin-bottom: 129px;
+    }
+    .advantages .about{
+        padding: 0 55px 0 20px;
+    }
+    .work .button{
+        margin: 41px auto 130px;
+    }
+}
